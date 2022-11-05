@@ -111,14 +111,14 @@ function App() {
                 <h1 className='text-center mb-5'>Contact Us</h1>
                 <form>
                   <div class="row mb-3">
-                    <label for="inputEmail3" className="col-sm-2 col-form-label">Email</label>
-                    <div  className="col-sm-8">
+                    <label for="inputEmail3" className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-form-label">Email</label>
+                    <div className="col-xs-8 col-sm-8 col-md-8 col-lg-9">
                       <input type="email"  className="form-control" id="inputEmail3" />
                     </div>
                   </div>
                   <div  className="row mb-3">
-                    <label for="input-message-1"  className="col-sm-2 col-form-label">Message</label>
-                    <div className="col-sm-8">
+                    <label for="input-message-1"  className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-form-label">Message</label>
+                    <div className="col-xs-8 col-sm-8 col-md-8 col-lg-9">
                       <textarea id="input-message-1"></textarea>
                     </div>
                   </div>
